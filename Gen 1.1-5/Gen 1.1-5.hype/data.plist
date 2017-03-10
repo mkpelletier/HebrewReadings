@@ -15,6 +15,8 @@
 		<dict>
 			<key>createEnclosingFolder</key>
 			<true/>
+			<key>exportScriptPath</key>
+			<string></string>
 			<key>externalRuntimeURL</key>
 			<string></string>
 			<key>includeTextContents</key>
@@ -46,15 +48,19 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
-	<string>518</string>
+	<string>574</string>
 	<key>documentationVerticalSplitViewPosition</key>
 	<real>325</real>
 	<key>drawSceneBackgrounds</key>
 	<true/>
+	<key>exportScriptArgumentsInspectorHeight</key>
+	<real>0.0</real>
+	<key>exportScriptDocumentArguments</key>
+	<dict/>
 	<key>exportSliceOidsToExport</key>
 	<array>
 		<string>4</string>
@@ -66,7 +72,7 @@
 			<string>&lt;style&gt;
 @font-face {
   font-family: EzraSILW;
-  src: local('Ezra SIL'), local('SBL Hebrew'), local('BibliaLS'), url(https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/--xzuCbWQpyxFIs1YKaimA/content/SILEOT.woff);
+  src: local('Ezra SIL'), local('SBL Hebrew'), local('BibliaLS'), url('https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/--xzuCbWQpyxFIs1YKaimA/content/SILEOT.woff') format('woff'), url('https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/wXClnSB8QBWDvvRoaI0QAQ/content/ezrasilsr-webfont.svg') format('svg');
 }
 &lt;/style&gt;</string>
 			<key>categories</key>
@@ -84,7 +90,7 @@
 			<key>name</key>
 			<string>EzraSILW</string>
 			<key>oid</key>
-			<string>73CB4A99-FD32-44FD-90EB-9C8FF9C679F2-23767-0000980C80E2CDAD</string>
+			<string>FBA65DDA-5196-4418-8146-08D2394A0329-28513-000275E29D156B75</string>
 		</dict>
 	</array>
 	<key>guidesAreLocked</key>
@@ -94,7 +100,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2016-02-25T10:54:48Z</date>
+	<date>2017-03-10T12:53:52Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -177,7 +183,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {627, 187}}</string>
+											<string>{{271, 0}, {627, 228}}</string>
 											<key>identifier</key>
 											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
@@ -190,7 +196,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 0}, {627, 187}}</string>
+													<string>{{271, 0}, {627, 228}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -200,7 +206,7 @@
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 188}, {627, 608}}</string>
+											<string>{{271, 229}, {627, 567}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -213,7 +219,7 @@
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 188}, {627, 608}}</string>
+													<string>{{271, 229}, {627, 567}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -278,7 +284,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>124</real>
 		<key>mainWindowFrame</key>
-		<string>0 59 1440 818 0 0 1440 877 </string>
+		<string>-1520 60 1440 818 -1600 0 1600 878 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -385,14 +391,12 @@
 					<string>5</string>
 					<key>scrollViewOffset</key>
 					<string>{0, 0}</string>
-					<key>userGuides</key>
-					<array/>
+					<key>zoomFactor</key>
+					<real>0.5</real>
 				</dict>
 				<dict>
 					<key>animationController</key>
 					<dict>
-						<key>expandedItems</key>
-						<array/>
 						<key>timeCursors</key>
 						<dict>
 							<key>31</key>
@@ -404,7 +408,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1254, 1216}</string>
+					<string>{1254, 1134}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -432,6 +436,8 @@
 					<string>{0, 0}</string>
 					<key>userGuides</key>
 					<array/>
+					<key>zoomFactor</key>
+					<real>0.5</real>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -475,8 +481,8 @@
 					<string>9</string>
 					<key>scrollViewOffset</key>
 					<string>{0, 0}</string>
-					<key>userGuides</key>
-					<array/>
+					<key>zoomFactor</key>
+					<real>0.5</real>
 				</dict>
 			</array>
 		</dict>
@@ -519,7 +525,7 @@ var myAudio = document.getElementById("hebRead");
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>9F162286-4CB6-4F65-B06A-CAAD32319DCA-53505-0000BDCFBE1260E4</string>
+			<string>6AF96448-C89D-4668-B24D-43AB1BB91190-28513-000275DECB8E66E6</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>67</string>
@@ -819,27 +825,27 @@ var myAudio = document.getElementById("hebRead");
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>rgba(216, 221, 228, 0.000)</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -971,15 +977,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 					</array>
 					<key>67</key>
@@ -992,9 +998,9 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1088,15 +1094,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>261px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>24</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>261px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1118,9 +1124,9 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>
@@ -1241,11 +1247,9 @@ var myAudio = document.getElementById("hebRead");
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>9F162286-4CB6-4F65-B06A-CAAD32319DCA-53505-0000BDCFBE1260E4</string>
+			<string>6AF96448-C89D-4668-B24D-43AB1BB91190-28513-000275DECB8E66E6</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>30</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -1541,27 +1545,27 @@ var myAudio = document.getElementById("hebRead");
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>rgba(216, 221, 228, 0.000)</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>rgba(216, 221, 228, 0.000)</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1687,15 +1691,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -1816,7 +1820,7 @@ var myAudio = document.getElementById("hebRead");
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>9F162286-4CB6-4F65-B06A-CAAD32319DCA-53505-0000BDCFBE1260E4</string>
+			<string>6AF96448-C89D-4668-B24D-43AB1BB91190-28513-000275DECB8E66E6</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>68</string>
@@ -1849,27 +1853,27 @@ var myAudio = document.getElementById("hebRead");
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1957,15 +1961,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>FilterEffectBrightness</string>
 							<key>objectValue</key>
 							<string>0.7345727848101266</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2005,42 +2009,42 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#FFFB00</string>
 						</dict>
 					</array>
 					<key>16</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#FFFB00</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2176,21 +2180,6 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-					</array>
-					<key>17</key>
-					<array>
-						<dict>
-							<key>identifier</key>
 							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
@@ -2201,17 +2190,32 @@ var myAudio = document.getElementById("hebRead");
 							<key>objectValue</key>
 							<string>div</string>
 						</dict>
+					</array>
+					<key>17</key>
+					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#FFFB00</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2347,42 +2351,42 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFB00</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>18</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2518,42 +2522,42 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#FFFB00</string>
 						</dict>
 					</array>
 					<key>19</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#FFFB00</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2689,15 +2693,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#FFFB00</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>20</key>
@@ -2985,33 +2989,33 @@ var myAudio = document.getElementById("hebRead");
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>rgba(232, 235, 237, 0.000)</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
 							<string>EzraSILW</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>rgba(216, 221, 228, 0.000)</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3137,15 +3141,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>rgba(232, 235, 237, 0.000)</string>
 						</dict>
 					</array>
 					<key>68</key>
@@ -3164,9 +3168,9 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3283,15 +3287,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>904px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>10</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>904px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3313,9 +3317,9 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>
@@ -3597,42 +3601,6 @@ var myAudio = document.getElementById("hebRead");
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.5</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>16</string>
-								<key>startTime</key>
-								<real>8</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2EB7218D-A92C-47FA-995C-2400A80A8884-23767-00009BA5F7FD9FC2</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
 								<string>Width</string>
@@ -3688,6 +3656,42 @@ var myAudio = document.getElementById("hebRead");
 								<string>552C7E37-83D0-4989-9685-E458F6477C2A-23767-00009B11D3226FFA</string>
 								<key>zIndex</key>
 								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.5</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0.5</string>
+								</dict>
+								<key>identifier</key>
+								<string>Opacity</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>16</string>
+								<key>startTime</key>
+								<real>8</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>2EB7218D-A92C-47FA-995C-2400A80A8884-23767-00009BA5F7FD9FC2</string>
+								<key>zIndex</key>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6631,6 +6635,8 @@ var myAudio = document.getElementById("hebRead");
 	<integer>0</integer>
 	<key>useTouchEvents</key>
 	<true/>
+	<key>videoExportDuration</key>
+	<real>0.0</real>
 	<key>videoExportLoopPlayback</key>
 	<true/>
 	<key>videoExportScale</key>
@@ -6639,7 +6645,5 @@ var myAudio = document.getElementById("hebRead");
 	<integer>0</integer>
 	<key>webAppCapable</key>
 	<integer>0</integer>
-	<key>zoomFactor</key>
-	<real>0.5</real>
 </dict>
 </plist>
