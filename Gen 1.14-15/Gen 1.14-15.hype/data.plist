@@ -15,6 +15,8 @@
 		<dict>
 			<key>createEnclosingFolder</key>
 			<true/>
+			<key>exportScriptPath</key>
+			<string></string>
 			<key>externalRuntimeURL</key>
 			<string></string>
 			<key>includeTextContents</key>
@@ -50,11 +52,15 @@
 		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
-	<string>526</string>
+	<string>574</string>
 	<key>documentationVerticalSplitViewPosition</key>
 	<real>325</real>
 	<key>drawSceneBackgrounds</key>
 	<true/>
+	<key>exportScriptArgumentsInspectorHeight</key>
+	<real>0.0</real>
+	<key>exportScriptDocumentArguments</key>
+	<dict/>
 	<key>exportSliceOidsToExport</key>
 	<array>
 		<string>4</string>
@@ -66,7 +72,7 @@
 			<string>&lt;style&gt;
 @font-face {
   font-family: EzraSILW;
-  src: local('Ezra SIL'), local('SBL Hebrew'), local('BibliaLS'), url(https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/--xzuCbWQpyxFIs1YKaimA/content/SILEOT.woff);
+  src: local('Ezra SIL'), local('SBL Hebrew'), local('BibliaLS'), url('https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/--xzuCbWQpyxFIs1YKaimA/content/SILEOT.woff') format('woff'), url('https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/wXClnSB8QBWDvvRoaI0QAQ/content/ezrasilsr-webfont.svg') format('svg');
 }
 &lt;/style&gt;</string>
 			<key>categories</key>
@@ -84,7 +90,7 @@
 			<key>name</key>
 			<string>EzraSILW</string>
 			<key>oid</key>
-			<string>73CB4A99-FD32-44FD-90EB-9C8FF9C679F2-23767-0000980C80E2CDAD</string>
+			<string>3599A967-3B58-4273-BA19-4D52F945F429-8081-00002EFB69097E2B</string>
 		</dict>
 	</array>
 	<key>guidesAreLocked</key>
@@ -94,7 +100,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2016-04-14T09:23:30Z</date>
+	<date>2017-04-04T11:59:59Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -102,9 +108,9 @@
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1353, 725}}</string>
+			<string>{{0, 0}, {1440, 797}}</string>
 			<key>identifier</key>
-			<string>container 124</string>
+			<string>container 105</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -115,7 +121,7 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1082, 725}}</string>
+					<string>{{0, 0}, {1169, 797}}</string>
 					<key>identifier</key>
 					<string>container 511</string>
 					<key>isCustomizableViewContainer</key>
@@ -128,7 +134,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 725}}</string>
+							<string>{{0, 0}, {135, 797}}</string>
 							<key>identifier</key>
 							<string>container 501</string>
 							<key>isCustomizableViewContainer</key>
@@ -141,7 +147,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 725}}</string>
+									<string>{{0, 0}, {135, 797}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -151,7 +157,7 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {811, 725}}</string>
+							<string>{{136, 0}, {1033, 797}}</string>
 							<key>identifier</key>
 							<string>container 502</string>
 							<key>isCustomizableViewContainer</key>
@@ -164,7 +170,7 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {811, 253}}</string>
+									<string>{{136, 0}, {1033, 240}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -177,7 +183,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {811, 253}}</string>
+											<string>{{136, 0}, {1033, 240}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -187,7 +193,7 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 254}, {811, 471}}</string>
+									<string>{{136, 241}, {1033, 556}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -200,7 +206,7 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 254}, {811, 471}}</string>
+											<string>{{136, 241}, {1033, 556}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -214,7 +220,7 @@
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1083, 0}, {270, 725}}</string>
+					<string>{{1170, 0}, {270, 797}}</string>
 					<key>identifier</key>
 					<string>container 510</string>
 					<key>isCustomizableViewContainer</key>
@@ -227,7 +233,7 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1083, 0}, {270, 725}}</string>
+							<string>{{1170, 0}, {270, 797}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -240,7 +246,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>133</real>
 		<key>mainWindowFrame</key>
-		<string>73 87 1353 747 0 0 1440 877 </string>
+		<string>0 59 1440 819 0 0 1440 878 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -252,7 +258,7 @@
 		<key>showSceneSelectorView</key>
 		<true/>
 		<key>showSceneVariantSelectorView</key>
-		<true/>
+		<false/>
 		<key>shownFilterEffectApplyMode</key>
 		<integer>0</integer>
 	</dict>
@@ -263,7 +269,7 @@
 	<key>minimumSupportedBrowserVersions</key>
 	<dict>
 		<key>Android</key>
-		<string>5.0</string>
+		<string>Latest</string>
 		<key>Chrome</key>
 		<string>Latest</string>
 		<key>Firefox</key>
@@ -271,11 +277,11 @@
 		<key>IE</key>
 		<string>None</string>
 		<key>Mobile Safari</key>
-		<string>7.1.2</string>
+		<string>Latest</string>
 		<key>Opera</key>
 		<string>Latest</string>
 		<key>Safari</key>
-		<string>9.0.0</string>
+		<string>Latest</string>
 		<key>iBooks</key>
 		<string>None</string>
 	</dict>
@@ -284,9 +290,9 @@
 	<key>monotypeProjectID</key>
 	<string>EF36CC2F-E4EB-4D3C-BAE2-7848D1A704C3-23767-000097F2B93C647A</string>
 	<key>oidCounter</key>
-	<integer>112</integer>
+	<integer>119</integer>
 	<key>pageTitle</key>
-	<string>Genesis 1:11-13 - Hebrew Reading</string>
+	<string>Genesis 1:14-15 - Hebrew Reading</string>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -308,20 +314,18 @@
 				<dict>
 					<key>animationController</key>
 					<dict>
-						<key>expandedItems</key>
-						<array/>
 						<key>timeCursors</key>
 						<dict>
 							<key>15</key>
-							<real>41</real>
+							<real>18.333333969116211</real>
 							<key>kTimelineDefaultIdentifier</key>
-							<real>3</real>
+							<real>3.0999999046325684</real>
 						</dict>
 						<key>timescale</key>
-						<integer>80</integer>
+						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1622, 1064}</string>
+					<string>{1377, 741}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -335,7 +339,7 @@
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1000, 1024}</string>
+						<string>{1000, 700}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -346,7 +350,9 @@
 					<key>rootSymbolControllerOid</key>
 					<string>9</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 61}</string>
+					<string>{0, 0}</string>
+					<key>zoomFactor</key>
+					<real>0.75</real>
 				</dict>
 			</array>
 		</dict>
@@ -389,11 +395,9 @@ var myAudio = document.getElementById("hebRead");
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>4819A5AB-914E-4189-9698-55C82B4F48E5-9830-00024FCFDBD96061</string>
+			<string>88512405-98AF-498F-BC0A-4946629F0A00-8081-000031369C893D1E</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>68</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -418,196 +422,13 @@ var myAudio = document.getElementById("hebRead");
 				</array>
 				<key>elements</key>
 				<dict>
-					<key>106</key>
+					<key>113</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowBlurRadius</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>179px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowYOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FilterEffectBlur</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>60px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>827px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>126px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>26</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowXOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>107</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
+							<string>EzraSILW</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -617,9 +438,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorBottom</string>
+							<string>PaddingRight</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>36px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -629,75 +456,39 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Opacity</string>
+							<string>Display</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>inline</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleRight</string>
+							<string>WordWrap</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>break-word</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowBlurRadius</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
+							<string>Text</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>262px</string>
+							<string>159px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleLeft</string>
+							<string>PaddingBottom</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorTop</string>
+							<string>WhiteSpaceCollapsing</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowYOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FilterEffectBlur</string>
-							<key>objectValue</key>
-							<string>8</string>
+							<string>preserve</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -709,220 +500,28 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>60px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
+							<string>509px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>845px</string>
+							<string>100px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorRight</string>
+							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&lt;span style="text-align: right; text-indent: -27px;"&gt;&amp;nbsp; &amp;nbsp;וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ &amp;nbsp;הַשָּמַיִם&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&amp;nbsp; &amp;nbsp;לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת&amp;nbsp;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&amp;nbsp; &amp;nbsp;וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִים׃&lt;/p&gt;
+&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&lt;span style="text-align: right; text-indent: -27px;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&lt;span style="text-align: right; text-indent: -27px;"&gt;&amp;nbsp; וְהָיוּ לִמְאוֹרֹת בִּרְקִיעַ &amp;nbsp;הַשָּׁמַיִם לְהָאִיר&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px;"&gt;&amp;nbsp; עַל־הָאָרֶץ וַיְהִי־כֵן׃&lt;/p&gt;
+&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; text-indent: -27px; min-height: 14px;"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px;"&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleTop</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>148px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>27</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowXOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-					</array>
-					<key>108</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowBlurRadius</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>336px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowYOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FilterEffectBlur</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>53px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>891px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>114px</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -932,15 +531,15 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthTop</string>
+							<string>Width</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>820px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BoxShadowXOffset</string>
+							<string>PaddingTop</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -952,46 +551,40 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Rectangle</string>
+							<string>Text 1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
-					<key>109</key>
+					<key>114</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#FFFB00</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1003,7 +596,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderStyleRight</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1015,31 +608,31 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderStyleBottom</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BoxShadowBlurRadius</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>3px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>473px</string>
+							<string>172px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderStyleLeft</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1061,12 +654,6 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>FilterEffectBlur</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Position</string>
 							<key>objectValue</key>
 							<string>absolute</string>
@@ -1075,7 +662,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>53px</string>
+							<string>45px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1087,7 +674,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>811px</string>
+							<string>814px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1099,208 +686,25 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderStyleTop</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>151px</string>
+							<string>100px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>10</string>
+							<string>15</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthTop</string>
 							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowXOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-					</array>
-					<key>110</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFB00</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>0</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowBlurRadius</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>563px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowYOffset</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FilterEffectBlur</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>53px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BoxShadowColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>916px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>86px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>11</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1324,7 +728,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1333,13 +737,13 @@ var myAudio = document.getElementById("hebRead");
 							<string>div</string>
 						</dict>
 					</array>
-					<key>111</key>
+					<key>115</key>
 					<array>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1369,7 +773,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderStyleRight</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1381,31 +785,31 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderStyleBottom</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BoxShadowBlurRadius</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>3px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>664px</string>
+							<string>277px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderStyleLeft</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1427,12 +831,6 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>FilterEffectBlur</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Position</string>
 							<key>objectValue</key>
 							<string>absolute</string>
@@ -1441,19 +839,19 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>53px</string>
+							<string>45px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>780px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BoxShadowColor</string>
 							<key>objectValue</key>
 							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>835px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1465,25 +863,25 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderStyleTop</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>167px</string>
+							<string>140px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>12</string>
+							<string>14</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthTop</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1507,7 +905,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1516,13 +914,13 @@ var myAudio = document.getElementById("hebRead");
 							<string>#FFFB00</string>
 						</dict>
 					</array>
-					<key>112</key>
+					<key>116</key>
 					<array>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1546,13 +944,13 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>Opacity</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>-0.3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderStyleRight</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1564,31 +962,31 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderStyleBottom</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BoxShadowBlurRadius</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>3px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderWidthRight</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>803px</string>
+							<string>495px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderStyleLeft</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1610,12 +1008,6 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>FilterEffectBlur</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Position</string>
 							<key>objectValue</key>
 							<string>absolute</string>
@@ -1624,7 +1016,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>53px</string>
+							<string>45px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1636,7 +1028,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>855px</string>
+							<string>761px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1646,15 +1038,21 @@ var myAudio = document.getElementById("hebRead");
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderStyleTop</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>Solid</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>114px</string>
+							<string>162px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1666,7 +1064,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderWidthTop</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1690,7 +1088,361 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
+					<key>118</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowBlurRadius</string>
+							<key>objectValue</key>
+							<string>3px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>602px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowYOffset</string>
+							<key>objectValue</key>
 							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>45px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>877px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>57px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>11</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowXOffset</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#FFFB00</string>
+						</dict>
+					</array>
+					<key>119</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#FFFB00</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowBlurRadius</string>
+							<key>objectValue</key>
+							<string>3px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>389px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowYOffset</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>45px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>761px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>Solid</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>162px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>10</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BoxShadowXOffset</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1855,7 +1607,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>25</string>
+							<string>32</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1985,6 +1737,12 @@ var myAudio = document.getElementById("hebRead");
 							<key>objectValue</key>
 							<string>pointer</string>
 						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
 					</array>
 					<key>22</key>
 					<array>
@@ -2101,7 +1859,7 @@ var myAudio = document.getElementById("hebRead");
 							<string>InnerHTML</string>
 							<key>objectValue</key>
 							<string>&lt;audio width="200" controls="controls" preload="auto" id="hebRead"&gt;
-&lt;source src="https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/UA8TcQ3vQRq30TkmA4plcA/content/Gen.%201.11-13.mp3" type="audio/mpeg"&gt;
+&lt;source src="https://share.sats.edu.za/share/proxy/alfresco-noauth/api/internal/shared/node/0b4qpytYRz-vjJr-2KJ_mw/content/bereshit%20-%201.14-15.mp3" type="audio/mpeg"&gt;
 &lt;/audio&gt;</string>
 						</dict>
 						<dict>
@@ -2120,7 +1878,7 @@ var myAudio = document.getElementById("hebRead");
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>24</string>
+							<string>31</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2151,159 +1909,6 @@ var myAudio = document.getElementById("hebRead");
 							<string>BackgroundColor</string>
 							<key>objectValue</key>
 							<string>rgba(232, 235, 237, 0.000)</string>
-						</dict>
-					</array>
-					<key>68</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>EzraSILW</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>LineHeight</string>
-							<key>objectValue</key>
-							<string>35px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>48px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>150px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>767px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>right</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>
-	
-	
-	
-
-
-&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;span style="font-style: normal; font-variant: normal; line-height: normal;"&gt;&lt;sup&gt;11&lt;/sup&gt;&lt;/span&gt;וַיֹּאמֶר אֱלֹהִים תַּדְשֵׁ֤א הָאָרֶץ&amp;nbsp;דֶּשֶׁא עֵשֶׂב&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;מַזְרִיעַ &amp;nbsp;זֶרַע עֵץ&amp;nbsp;פְּרִי עֹשֶׂה פְּרִי לְמִינֹו&amp;nbsp;אֲשֶׁ֥ר&amp;nbsp;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;זַרְעֹו־בֹו עַל־הָאָרֶץ וַיְהִי־כֵן׃&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;span style="font-style: normal; font-variant: normal; line-height: normal;"&gt;&lt;sup&gt;&lt;br&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;span style="font-style: normal; font-variant: normal; line-height: normal;"&gt;&lt;sup&gt;12&lt;/sup&gt;&lt;/span&gt;וַתֹּוצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִי עַזֶרַע לְמִינֵהוּ&amp;nbsp;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;וְעֵץ עֹשֶׂה־פְּרִי אֲשֶׁ֥ר זַרְעֹו־בֹו לְמִינֵהוּ וַיַּרְא&amp;nbsp;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;אֱלֹהִים כִּי־טֹוב׃&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;span style="font-style: normal; font-variant: normal; line-height: normal;"&gt;&lt;sup&gt;&lt;br&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right;"&gt;&lt;span style="font-style: normal; font-variant: normal; line-height: normal;"&gt;&lt;sup&gt;13&lt;/sup&gt;&lt;/span&gt;וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יֹום שְׁלִישִׁי׃&lt;/p&gt;&lt;p dir="rtl" style="margin-top: 0px; margin-bottom: 0px; text-align: right; min-height: 14px;"&gt;&lt;br&gt;&lt;/p&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>984px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -2550,16 +2155,16 @@ var myAudio = document.getElementById("hebRead");
 									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>identifier</key>
 								<string>Opacity</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>1</real>
+								<real>0.76666665077209473</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -2574,7 +2179,7 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>6A1D0E7B-4F17-4D8F-8573-D5F6B0AF1D69-9830-00024FE360A72238</string>
+								<string>E0DB98B5-D0E7-4DB1-AEC1-D1A4AEC43B72-8081-00002F6064A5EE30</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
@@ -2586,15 +2191,15 @@ var myAudio = document.getElementById("hebRead");
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>1.5</real>
+								<real>1.2666666507720947</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2603,34 +2208,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>7D1B21CB-F094-4241-8720-E0D83BE13942-9830-00024FE360C1B07E</string>
+								<string>AC2CA1E3-7171-4710-826B-81CE6ED64294-8081-00002F6064D0D9D3</string>
 								<key>zIndex</key>
 								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.79999995231628418</real>
+								<real>0.80000007152557373</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>655px</string>
+									<string>689px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>1.7666666507720947</real>
+								<real>1.3999999761581421</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>827px</string>
+									<string>814px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2639,34 +2244,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>E57ECE2C-828B-4C37-AFE9-6F32F28C4D63-9830-00024FEEC7DDDCDD</string>
+								<string>B85DF7F6-C295-4E67-BA9C-CB56F57A635D-8081-00002F695E4CC37A</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.79999995231628418</real>
+								<real>0.80000007152557373</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>298px</string>
+									<string>225px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>1.7666666507720947</real>
+								<real>1.3999999761581421</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>126px</string>
+									<string>100px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2675,34 +2280,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>256F0660-019F-44BC-8912-E57D663E04B2-9830-00024FEEC7F9ABFD</string>
+								<string>2BC7566C-9470-4F97-8A5B-8C32FF9F47B1-8081-00002F695E66F472</string>
 								<key>zIndex</key>
 								<integer>1</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.80000019073486328</real>
+								<real>1.0666666030883789</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>655px</string>
+									<string>689px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>2.5666666030883789</real>
+								<real>2.2000000476837158</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>655px</string>
+									<string>689px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2711,34 +2316,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>A9308022-4F7B-4471-A3B6-671417481AB2-9830-00024FEEC7E92D6D</string>
+								<string>57EDFC8D-C933-4280-BB02-65C173CDFE6D-8081-00002F695E57772D</string>
 								<key>zIndex</key>
 								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.80000019073486328</real>
+								<real>1.0666666030883789</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>298px</string>
+									<string>225px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>2.5666666030883789</real>
+								<real>2.2000000476837158</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>298px</string>
+									<string>225px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2747,34 +2352,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>06C71AF5-83E2-4FFE-BE93-0BBCDEE9C821-9830-00024FEEC800A932</string>
+								<string>50B75522-0273-4D16-943F-A9F347FD3785-8081-00002F695E6D7FCA</string>
 								<key>zIndex</key>
 								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.8333330154418945</real>
+								<real>3.4999997615814209</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>580px</string>
+									<string>636px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>3.3666667938232422</real>
+								<real>3.2666666507720947</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>298px</string>
+									<string>225px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2783,34 +2388,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>B75E97C3-1FA5-4B89-AE43-EF65D7F21A91-9830-00024FF67F6CF0DC</string>
+								<string>4B0DE165-3B9F-4AE9-8048-07608293774C-8081-00002F75B4AEBF4A</string>
 								<key>zIndex</key>
 								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.8333330154418945</real>
+								<real>3.4999997615814209</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>373px</string>
+									<string>278px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>3.3666667938232422</real>
+								<real>3.2666666507720947</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>655px</string>
+									<string>689px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2819,171 +2424,27 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>7DCFF7D7-757C-4962-924E-F717B0C66B78-9830-00024FF67F4E9F8E</string>
+								<string>AED68EEC-1F75-423C-8C83-22A380314CD9-8081-00002F75B48DB602</string>
 								<key>zIndex</key>
 								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.20000028610229492</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>580px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>106</string>
-								<key>startTime</key>
-								<real>5.1999998092651367</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>580px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2FCF91E4-A6F5-479B-9EAC-DD1B82265ADF-9830-00024FF67F74CB58</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.20000028610229492</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>373px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>106</string>
-								<key>startTime</key>
-								<real>5.1999998092651367</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>373px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>45637A46-293A-4C4C-A2BE-29FE62B6D941-9830-00024FF67F5A9257</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>806px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>106</string>
-								<key>startTime</key>
-								<real>5.4000000953674316</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>580px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>33316EA5-EFF7-4454-91D8-661A9FCBD9E3-9830-00024FFC43CDD608</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>147px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>106</string>
-								<key>startTime</key>
-								<real>5.4000000953674316</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>373px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>A528EDC5-9B2D-4C04-B9ED-CBFD631FC382-9830-00024FFC43B0A866</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>6.4000000953674316</real>
+								<real>6.7666664123535156</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>806px</string>
+									<string>636px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -2992,9 +2453,9 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>78652380-2DAF-46BB-B2D5-F411A24B233C-9830-00024FFC43D8D272</string>
+								<string>E5FE5A71-D203-4827-B5BD-C65D1CA595D9-8081-00002F75B4B9CDE4</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -3004,15 +2465,15 @@ var myAudio = document.getElementById("hebRead");
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>106</string>
+								<string>114</string>
 								<key>startTime</key>
-								<real>6.4000000953674316</real>
+								<real>6.7666664123535156</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>147px</string>
+									<string>278px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3021,730 +2482,31 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>BC7A0A23-AC38-4FE5-B827-A51FC7C50252-9830-00024FFC43BD0AED</string>
+								<string>56483468-D08C-4979-B4C8-B05929562907-8081-00002F75B49A9960</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.53333330154418945</real>
+								<real>0.5</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>identifier</key>
 								<string>Opacity</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>6.4666666984558105</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>5DEC2C37-C989-4FCC-A498-A98F91AA8C8D-9830-0002500EAF8F9C2E</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>7</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.4</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>D0669605-D395-4830-B407-CA3D3177F814-9830-0002500EAFA8B834</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.73333358764648438</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
+								<string>115</string>
 								<key>startTime</key>
 								<real>7.1333332061767578</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>845px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>A228E53C-E07B-48CB-8655-30E08A2AB04E-9830-0002501124E5EDC9</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.73333358764648438</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>240px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>7.1333332061767578</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>148px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>0382A62D-0441-42ED-BCB4-C59EE717C333-9830-0002501125021735</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.63333320617675781</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>7.8666667938232422</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>51F7154D-E84A-478A-AF3B-D24543CA3AB1-9830-0002501124F11681</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.63333320617675781</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>240px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>7.8666667938232422</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>240px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>ACACA51C-24BF-4B5B-9EB5-06F16AF64C5F-9830-0002501125095736</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.4666662216186523</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>412px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>8.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>240px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2FF8A076-6B8E-473F-8BB7-41D19D7B02B5-9830-0002501798DA360C</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.4666662216186523</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>581px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>8.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>804EEBB0-A7F8-432F-B1BB-FFA5DDB9A679-9830-0002501798B8A37C</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>612px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>9.9666662216186523</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>412px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>29B2D6D2-D957-4D9B-B64F-8B1B454092CB-9830-0002501798E276DA</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>381px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>9.9666662216186523</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>581px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>FEBEB964-E5D1-4D36-BE9F-AF96AD161E85-9830-0002501798C5B050</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.16666698455810547</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>612px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>10.966666221618652</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>612px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>39A2E381-B9E4-4967-97D4-FE2EDA7E1ACE-9830-0002501D9EF595D5</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.16666698455810547</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>381px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>10.966666221618652</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>381px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>8FB721F0-DF54-48B7-98B1-C0566C0A6031-9830-0002501D9EDCAED5</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.0333337783813477</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>748px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>11.133333206176758</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>612px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>99B98807-80AD-40B4-A762-B5088597F31B-9830-0002504B5FEA0351</string>
-								<key>zIndex</key>
-								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.0333337783813477</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>245px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>11.133333206176758</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>381px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>30E189F0-DCCF-42D7-A391-A0DB716D2513-9830-0002504B5FC4D445</string>
-								<key>zIndex</key>
-								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.33333301544189453</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>748px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>12.166666984558105</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>748px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>58873391-1E26-4A0D-8B0F-C9860B9B7E86-9830-0002504B5FF57897</string>
-								<key>zIndex</key>
-								<integer>7</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.33333301544189453</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>245px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>12.166666984558105</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>245px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>9CABA3C3-1637-4CAA-95E3-B91D894D8788-9830-0002504B5FD7E5A4</string>
-								<key>zIndex</key>
-								<integer>7</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>135px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>12.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>245px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>F15393AB-0145-47C9-888D-5D0C17642CD4-9830-0002509C15430CC0</string>
-								<key>zIndex</key>
-								<integer>8</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>858px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>12.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>748px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>78479F54-03EF-45BD-991A-2B661F792D52-9830-0002509C1564CF80</string>
-								<key>zIndex</key>
-								<integer>8</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>13</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>135px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>58BAE1AA-AD84-4EAC-B324-B84A99CBB6D4-9830-0002509C15525698</string>
-								<key>zIndex</key>
-								<integer>9</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>107</string>
-								<key>startTime</key>
-								<real>13</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>858px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>8C6A43D5-86DD-4EE8-9CF0-1029190A582B-9830-0002509C1570414E</string>
-								<key>zIndex</key>
-								<integer>9</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.53333282470703125</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.4</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>13.300000190734863</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
 									<string>0</string>
@@ -3756,9 +2518,81 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>78AA3A83-CAE7-408F-9A0A-1F76510C725A-9830-000250B2808A0B63</string>
+								<string>0B3AABE3-D553-464A-AD42-B8E8649F07B7-8081-00002F82951DA9CE</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>3</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>442px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>115</string>
+								<key>startTime</key>
+								<real>7.6333332061767578</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>780px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>9777CAE4-FC6E-4C44-A1FF-3D37ED7FE67A-8081-00002F8BEE1E7F4A</string>
+								<key>zIndex</key>
+								<integer>5</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>3</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>478px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>115</string>
+								<key>startTime</key>
+								<real>7.6333332061767578</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>140px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>7B2DD83B-3A0C-4C7D-81D9-2AA0B40266C6-8081-00002F8BEE3927C7</string>
+								<key>zIndex</key>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -3768,15 +2602,15 @@ var myAudio = document.getElementById("hebRead");
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>108</string>
+								<string>115</string>
 								<key>startTime</key>
-								<real>13.833333015441895</real>
+								<real>7.6333332061767578</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -3785,322 +2619,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>5A896BC0-4ED6-4255-AF60-E5780209C317-9830-000250B280A37870</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>821px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>14</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>891px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>62B8C667-1126-42CF-BA39-FC7B82E5381C-9830-000250B8FA07FEFD</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>184px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>14</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>114px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>1AD07452-8056-4814-BCA3-8D573E5B6D3E-9830-000250B8FA26A477</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.23333358764648438</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>821px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>14.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>821px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>B92D4FDB-DCAE-49B1-8546-F1B41D8B22DA-9830-000250B8FA143577</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.23333358764648438</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>184px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>14.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>184px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>446C05EE-9C7C-4D2F-BF20-4B9E414E858C-9830-000250B8FA30C5A3</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.96666622161865234</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>597px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>14.733333587646484</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>821px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>ABB24216-CEBB-49D0-BD24-1B33D0C63E53-9830-000250CAA94D5CBC</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.96666622161865234</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>408px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>14.733333587646484</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>184px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>11E87F13-48E7-44BD-BB55-54C717B288EF-9830-000250CAA9719524</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.3000001907348633</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>597px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>15.699999809265137</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>597px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>7ACBF380-C11E-414A-8AEF-4A27A82EFDB8-9830-000250CAA95A5A10</string>
+								<string>EC0C4FB6-9B66-417B-AE86-D9042DAEACD2-8081-00002F8295370546</string>
 								<key>zIndex</key>
 								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.3000001907348633</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>408px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>15.699999809265137</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>408px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>1E68719D-254B-427F-89CC-23BFDB4A9648-9830-000250CAA97AAEA2</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.3333339691162109</real>
+								<real>0.86666679382324219</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>411px</string>
+									<string>442px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>108</string>
+								<string>115</string>
 								<key>startTime</key>
-								<real>17</real>
+								<real>10.633333206176758</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>597px</string>
+									<string>442px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4109,101 +2655,7 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>9565E9B5-B57F-46D6-B189-FFB56CD39A37-9830-000250CFC3F41889</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.3333339691162109</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>594px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>17</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>408px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>11CE40D1-6A9C-4963-86D4-329481A968CD-9830-000250CFC4150CD6</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>18.333333969116211</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>411px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>1A657BEE-6331-48A0-A8A0-1D313708384B-9830-000250CFC401F03B</string>
-								<key>zIndex</key>
-								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>108</string>
-								<key>startTime</key>
-								<real>18.333333969116211</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>594px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>9E503F49-DD45-4B74-9EA8-83BE25DCBC70-9830-000250CFC41ECC6F</string>
+								<string>6A208FAD-88C2-432F-B5DB-9192449EA1FC-8081-00002F8BEE28DAA5</string>
 								<key>zIndex</key>
 								<integer>6</integer>
 							</dict>
@@ -4213,18 +2665,184 @@ var myAudio = document.getElementById("hebRead");
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>478px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>115</string>
+								<key>startTime</key>
+								<real>10.633333206176758</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>478px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>CF077A47-6B6F-414C-BD35-6862159DB086-8081-00002F8BEE40A17A</string>
+								<key>zIndex</key>
+								<integer>6</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>1.1666669845581055</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>654px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>115</string>
+								<key>startTime</key>
+								<real>11.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>478px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>FA7BCCA9-2A54-41E8-9DBA-2A090F62FB1F-8081-00002FA002B9109E</string>
+								<key>zIndex</key>
+								<integer>7</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>1.1666669845581055</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>266px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>115</string>
+								<key>startTime</key>
+								<real>11.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>442px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>D8FF6208-A4CB-49D5-952D-7EA66A51E159-8081-00002FA002982A4A</string>
+								<key>zIndex</key>
+								<integer>7</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>115</string>
+								<key>startTime</key>
+								<real>12.666666984558105</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>654px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>E1A83ACF-40E7-4457-AAB4-3391C93B0931-8081-00002FA002C22B8E</string>
+								<key>zIndex</key>
+								<integer>8</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>115</string>
+								<key>startTime</key>
+								<real>12.666666984558105</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>266px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>C047E776-01F7-4BF2-B55F-F088C3F2728D-8081-00002FA002A5B781</string>
+								<key>zIndex</key>
+								<integer>8</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.63333320617675781</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>identifier</key>
 								<string>Opacity</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>109</string>
+								<string>119</string>
 								<key>startTime</key>
-								<real>19.5</real>
+								<real>13.199999809265137</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -4239,600 +2857,9 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>632F1F36-1CD1-40A6-A9BD-6579E36DF5F1-9830-000250E80B70C504</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>20.366666793823242</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.4</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>BE855220-B8A3-4AE2-8D6B-9241891B28B6-9830-000250E80B943B8E</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.43333244323730469</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>675px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>20.566667556762695</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>811px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>F543300F-7570-4965-B819-80E54A559B3D-9830-000250ED44488479</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.43333244323730469</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>287px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>20.566667556762695</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>151px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>C9C05C3B-4674-4980-8D20-FC061E377460-9830-000250ED4467C5CF</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.33333396911621094</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>675px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>21</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>675px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>748F13D9-9A43-4906-B64F-6E5DE28CA544-9830-000250ED4455120D</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.33333396911621094</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>287px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>21</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>287px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>4D50B0C7-2455-4644-96BE-E7285D6FB87A-9830-000250ED447028C3</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>459px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>21.333333969116211</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>675px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>D31618C4-0CA0-4145-A138-8A33E4C314BD-9830-0002516B69EFD434</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>503px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>21.333333969116211</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>287px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>68ECB893-C0E6-4F4D-B612-6FE508D18A3B-9830-0002516B6A15F5A4</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.16666603088378906</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>459px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>22.333333969116211</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>459px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>03A93D29-01A4-4738-B69D-415C6091ADDC-9830-0002516B69FE6C64</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.16666603088378906</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>503px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>22.333333969116211</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>503px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>5CA85614-43D8-49FA-8DBA-92C7999F4A67-9830-0002516B6A246821</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>219px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>22.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>459px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>A64BB30A-3F4B-4CCB-98E9-5A269B227994-9830-0002518D6D7F3751</string>
+								<string>909CBE52-9F9C-4150-8574-CC796B4CA739-8081-0000301ABFA2E713</string>
 								<key>zIndex</key>
 								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>743px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>22.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>503px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2B18E128-C185-4A4F-B07E-E81245F1226D-9830-0002518D6DA26EEF</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.29999923706054688</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>219px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>23.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>219px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>0765A5B0-F533-4F93-B029-E55909C58B0D-9830-0002518D6D8DD614</string>
-								<key>zIndex</key>
-								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.29999923706054688</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>743px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>23.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>743px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>EBBF3CD9-A894-4164-985B-E926A2E9908F-9830-0002518D6DAE77D2</string>
-								<key>zIndex</key>
-								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.66666793823242188</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>51px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>23.799999237060547</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>219px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>0350030A-57BE-4C9E-A222-1E9164A2F785-9830-000251943AA8C642</string>
-								<key>zIndex</key>
-								<integer>7</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.66666793823242188</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>911px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>23.799999237060547</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>743px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>B89D99DC-671F-47E5-807F-C24D606B5598-9830-000251943ACE9F3D</string>
-								<key>zIndex</key>
-								<integer>7</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>24.466667175292969</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>51px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>F2D40FFD-6534-4DAC-BD2C-D464EFF1F468-9830-000251943AB8150B</string>
-								<key>zIndex</key>
-								<integer>8</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>109</string>
-								<key>startTime</key>
-								<real>24.466667175292969</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>911px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>10BEA867-E5B9-491F-96D2-D0C7B0033273-9830-000251943AD9AB05</string>
-								<key>zIndex</key>
-								<integer>8</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -4842,16 +2869,81 @@ var myAudio = document.getElementById("hebRead");
 									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0</string>
 								</dict>
 								<key>identifier</key>
 								<string>Opacity</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>110</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>25.5</real>
+								<real>13.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>-0.3</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>72CCB336-C65D-495E-996B-A87097D3ED24-8081-00002FB1C57A6140</string>
+								<key>zIndex</key>
+								<integer>6</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Opacity</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>119</string>
+								<key>startTime</key>
+								<real>13.833333015441895</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0.3</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>A786C8DD-A40D-409B-81A5-86D07E31131E-8081-0000301ABFB598A1</string>
+								<key>zIndex</key>
+								<integer>7</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>4.3333339691162109</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0</string>
+								</dict>
+								<key>identifier</key>
+								<string>Opacity</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>116</string>
+								<key>startTime</key>
+								<real>14</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -4866,27 +2958,171 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>E63666E2-4A80-4A2B-8B5F-AB3A5E03692E-9830-000251EAC8058C51</string>
+								<string>176F123D-801F-454B-B9D7-CA45616330ED-8081-00002FB1C594435E</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>8</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>1.9999990463256836</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>518px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>119</string>
+								<key>startTime</key>
+								<real>14.433333396911621</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>761px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>20D8D60F-D0D1-4AE3-9769-50A0D9AF234E-8081-0000302A2F916630</string>
+								<key>zIndex</key>
+								<integer>9</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>1.9999990463256836</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>405px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>119</string>
+								<key>startTime</key>
+								<real>14.433333396911621</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>162px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>1EED9E61-46FC-4D9E-9D1F-EC8F0A27363C-8081-0000302A2FAF787A</string>
+								<key>zIndex</key>
+								<integer>9</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>2.3000011444091797</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>858px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>116</string>
+								<key>startTime</key>
+								<real>14.766666412353516</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>761px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>CD7E9985-8833-4877-A631-1B1ECEFA74F0-8081-00002FBA8E046E5B</string>
+								<key>zIndex</key>
+								<integer>10</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>2.3000011444091797</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>70px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>116</string>
+								<key>startTime</key>
+								<real>14.766666412353516</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>162px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>45D1B748-FE83-4581-9796-136585FF0FC9-8081-00002FBA8E185253</string>
+								<key>zIndex</key>
+								<integer>10</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
-								<string>Opacity</string>
+								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>110</string>
+								<string>119</string>
 								<key>startTime</key>
-								<real>26</real>
+								<real>16.433332443237305</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Opacity</string>
+									<string>Left</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>518px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4895,34 +3131,63 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>B9AE0CA1-55BF-4761-BD57-54CF9E4477CB-9830-000251EAC821C496</string>
+								<string>44C56FED-9A8D-4461-9F4A-81B0A4D7586F-8081-0000302A2F9D9416</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>11</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.0666675567626953</real>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>119</string>
+								<key>startTime</key>
+								<real>16.433332443237305</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>405px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>F2D4975A-3921-42CE-9AD3-0BB7C777BB58-8081-0000302A2FB7CB75</string>
+								<key>zIndex</key>
+								<integer>11</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>1.2666664123535156</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>697px</string>
+									<string>858px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>110</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>26.166666030883789</real>
+								<real>17.066667556762695</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>916px</string>
+									<string>858px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4931,34 +3196,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>3FFD4098-EF19-4BE1-A13D-D2EB53093F2A-9830-000251EE2F566D4C</string>
+								<string>122AABF6-A602-418B-9FA3-48E43B5B75A6-8081-00002FBA8E0BD967</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>12</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.0666675567626953</real>
+								<real>1.2666664123535156</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>305px</string>
+									<string>70px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>110</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>26.166666030883789</real>
+								<real>17.066667556762695</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>86px</string>
+									<string>70px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -4967,369 +3232,9 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>C1E078D0-387E-4457-B75C-42B68FD08E00-9830-000251EE2FA91087</string>
+								<string>CB9B9418-CDBA-4182-B6EE-E119A36C1C25-8081-00002FBA8E1DCC69</string>
 								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5666656494140625</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>305px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>27.233333587646484</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>305px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>AA2DF081-1560-46E2-92CF-BE6225C61589-9830-000251EE2FB3289E</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5666656494140625</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>697px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>27.233333587646484</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>697px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>C44EEECC-6BB4-4461-940F-38553A893D66-9830-000251EE2F6E80B8</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.40000152587890625</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>593px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>27.799999237060547</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>697px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>C7B7FAFA-AE45-4FAC-9E88-2BAEBD1B4AB3-9830-0002520EF8AF2E9C</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.40000152587890625</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>409px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>27.799999237060547</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>305px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>01F1578C-1ADE-4A7B-BA1D-89B54D859CC7-9830-0002520EF8C792AB</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.29999923706054688</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>593px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>28.200000762939453</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>593px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>114F71C5-C28E-4E5B-B218-F91FF8E64B16-9830-0002520EF8BA5B08</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.29999923706054688</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>409px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>28.200000762939453</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>409px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>749EF3F1-CCB5-4635-AE30-BC3A121A6E68-9830-0002520EF8CDC200</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>249px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>28.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>593px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>0270C503-48F1-4D7F-B4FA-436D2C17E5AC-9830-00025216E7550F5C</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>28.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>409px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>58DF47EC-1392-434B-81F2-3017DFFCECC5-9830-00025216E797C425</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>2</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>249px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>30</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>249px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>3D61E1D7-2B4A-4AAD-BEE3-52C3BC419D99-9830-00025216E776E787</string>
-								<key>zIndex</key>
-								<integer>6</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>2</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>30</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E62DCE3F-1A49-4CE7-94AD-676342AECA82-9830-00025216E7A25FE3</string>
-								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>12</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -5337,148 +3242,18 @@ var myAudio = document.getElementById("hebRead");
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>127px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>32</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>249px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>6588D1E2-9072-4AE0-B52D-FE48E0CD4622-9830-0002522033403158</string>
-								<key>zIndex</key>
-								<integer>7</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>875px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>32</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>753px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>042661E0-B80B-44BE-843D-5431DC7DA90D-9830-0002522033658413</string>
-								<key>zIndex</key>
-								<integer>7</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>32.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>127px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>6AA84F3C-3579-4284-9249-6F28C6C37B14-9830-0002522033505FE5</string>
-								<key>zIndex</key>
-								<integer>8</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>110</string>
-								<key>startTime</key>
-								<real>32.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>875px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>F1F426D8-9847-428B-8812-052702369FA7-9830-000252203374E945</string>
-								<key>zIndex</key>
-								<integer>8</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.33333206176757812</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>identifier</key>
 								<string>Opacity</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>111</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>32.666667938232422</real>
+								<real>18.333333969116211</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
@@ -5493,9 +3268,81 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>186B7B62-3759-4587-89FB-B7449A3BE1C6-9830-00025247398C6570</string>
+								<string>BD143F4F-999E-47A2-B5D5-88AA00FBE6C6-8081-00002FCE4B11EA4C</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>9</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>3.1999988555908203</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>474px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>116</string>
+								<key>startTime</key>
+								<real>18.333333969116211</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>858px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>CC402686-09CC-4BBA-B34E-26C884102B8C-8081-00002FDBBA0373A4</string>
+								<key>zIndex</key>
+								<integer>13</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>3.1999988555908203</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>454px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>116</string>
+								<key>startTime</key>
+								<real>18.333333969116211</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>70px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>E05FE9C6-814E-4AC1-BFAA-0B11FE0F8474-8081-00002FDBBA34CA1E</string>
+								<key>zIndex</key>
+								<integer>13</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -5505,15 +3352,15 @@ var myAudio = document.getElementById("hebRead");
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>111</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>33</real>
+								<real>18.833333969116211</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5522,34 +3369,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>D84D7DE5-2A2D-4D8C-9743-647C2F5AF51D-9830-0002524739A8DFE8</string>
+								<string>41CB8734-79A4-4D37-AB7E-C5E14B618B31-8081-00002FCE4B277EC1</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>10</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.7333297729492188</real>
+								<real>0.46666717529296875</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>645px</string>
+									<string>474px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>111</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>33.133335113525391</real>
+								<real>21.533332824707031</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>835px</string>
+									<string>474px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5558,34 +3405,70 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>CC84E9E9-E3E8-4924-B2BA-B800208EE9F9-9830-0002524982A1C049</string>
+								<string>BDDC520B-1EA3-4C1E-84A6-9C144CD50F42-8081-00002FDBBA179C58</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>14</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.7333297729492188</real>
+								<real>0.46666717529296875</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
+									<key>objectValue</key>
+									<string>454px</string>
+								</dict>
+								<key>identifier</key>
+								<string>Width</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>116</string>
+								<key>startTime</key>
+								<real>21.533332824707031</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>454px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>8FC32BCE-F346-4F24-AA57-5DFB1B6A3296-8081-00002FDBBA3B28BA</string>
+								<key>zIndex</key>
+								<integer>14</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.5</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
 									<key>objectValue</key>
 									<string>357px</string>
 								</dict>
 								<key>identifier</key>
-								<string>Width</string>
+								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>111</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>33.133335113525391</real>
+								<real>22</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Width</string>
+									<string>Left</string>
 									<key>objectValue</key>
-									<string>167px</string>
+									<string>474px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5594,25 +3477,97 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>EF0E6426-D273-4ABF-BB88-C8EE49F7B33E-9830-0002524982C4F285</string>
+								<string>27A5596F-629D-4E30-8B65-2422099308C0-8081-00002FE0F37C7E9E</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>15</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.0</real>
+								<real>0.5</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Width</string>
+									<key>objectValue</key>
+									<string>571px</string>
+								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>111</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>34.866664886474609</real>
+								<real>22</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
+									<key>objectValue</key>
+									<string>454px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>AE299527-353C-42BF-9855-896C783C0F53-8081-00002FE0F39CD1E0</string>
+								<key>zIndex</key>
+								<integer>15</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.33333396911621094</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0.3</string>
+								</dict>
+								<key>identifier</key>
+								<string>Opacity</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>118</string>
+								<key>startTime</key>
+								<real>22.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Opacity</string>
+									<key>objectValue</key>
+									<string>0</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>9CD526E5-6A9C-4BE9-932B-D6E9077C7C09-8081-00002FEEBD0890ED</string>
+								<key>zIndex</key>
+								<integer>11</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>116</string>
+								<key>startTime</key>
+								<real>22.5</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
 									<key>objectValue</key>
 									<string>357px</string>
 								</dict>
@@ -5623,27 +3578,27 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>87BA9E24-630F-4520-BA8A-0A1EE76CFEFF-9830-0002524982D0F545</string>
+								<string>9650DE5C-E4B4-4176-881D-714F1DB98A9D-8081-00002FE0F38A935F</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>16</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
 								<real>0.0</real>
 								<key>identifier</key>
-								<string>Left</string>
+								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>111</string>
+								<string>116</string>
 								<key>startTime</key>
-								<real>34.866664886474609</real>
+								<real>22.5</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
-									<string>Left</string>
+									<string>Width</string>
 									<key>objectValue</key>
-									<string>645px</string>
+									<string>571px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5652,45 +3607,9 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>FDA93165-1888-4087-B422-740F9948AC76-9830-0002524982AF92C8</string>
+								<string>FBD28785-7F7A-4D77-B3CD-D790FC48B9B6-8081-00002FE0F3A6A7D2</string>
 								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.36666488647460938</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0.4</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>112</string>
-								<key>startTime</key>
-								<real>36.133335113525391</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>AE423951-A085-41F2-B9BB-3C06C5B8F7DC-9830-0002525D3D4E904B</string>
-								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>16</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -5700,15 +3619,15 @@ var myAudio = document.getElementById("hebRead");
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>36.5</real>
+								<real>22.833333969116211</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Opacity</string>
 									<key>objectValue</key>
-									<string>0.4</string>
+									<string>0.3</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5717,34 +3636,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>A5821E2B-1B69-41A1-B78D-A7992A829ACA-9830-0002525D3D72D1EA</string>
+								<string>2C0B82FC-5951-4F8F-979C-6DDACDB3AACD-8081-00002FEEBD18D46F</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>12</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.59999847412109375</real>
+								<real>0.5</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>741px</string>
+									<string>773px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>36.633335113525391</real>
+								<real>23</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>855px</string>
+									<string>877px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5753,34 +3672,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>8E1088B3-2A46-47A3-8C20-35D076B2D876-9830-000252624AAE6FDC</string>
+								<string>896F4EF7-A12A-4030-BB22-5F327F394E5F-8081-00002FF1689AF9EE</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>17</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.59999847412109375</real>
+								<real>0.5</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>228px</string>
+									<string>161px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>36.633335113525391</real>
+								<real>23</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>114px</string>
+									<string>57px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5789,34 +3708,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>1AF74086-7B2E-45D7-BA71-F0F1E7126547-9830-000252624AD67115</string>
+								<string>A217FA77-D351-4049-9788-DA3F885B80EB-8081-00002FF168B89D13</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>17</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.46666717529296875</real>
+								<real>1.7000007629394531</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>741px</string>
+									<string>773px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>37.233333587646484</real>
+								<real>23.5</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>741px</string>
+									<string>773px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5825,34 +3744,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>F51B7FF6-BB55-4317-A3CD-9128723DC108-9830-000252624ABD3D95</string>
+								<string>6F24C92D-3309-4B9A-8D9A-E71B2B063EFC-8081-00002FF168A6BC5D</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>18</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>0.46666717529296875</real>
+								<real>1.7000007629394531</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>228px</string>
+									<string>161px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>37.233333587646484</real>
+								<real>23.5</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>228px</string>
+									<string>161px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5861,34 +3780,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>989D3BA1-FAE4-4BE8-8AF1-2E352645148D-9830-000252624AE08222</string>
+								<string>59072F14-2EA8-4970-AC44-F856E46B8EC4-8081-00002FF168C045DD</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>18</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.2999992370605469</real>
+								<real>1.2666664123535156</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>531px</string>
+									<string>634px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>37.700000762939453</real>
+								<real>25.200000762939453</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>741px</string>
+									<string>773px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5897,34 +3816,34 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>E0C9F663-2A3B-4260-A346-110B14FC60B9-9830-00025266F86C9798</string>
+								<string>79C96EEA-D49B-4E78-988C-235EB5627464-8081-00002FFAF650475B</string>
 								<key>zIndex</key>
-								<integer>3</integer>
+								<integer>19</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
-								<real>1.2999992370605469</real>
+								<real>1.2666664123535156</real>
 								<key>endValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>438px</string>
+									<string>300px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Width</string>
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>37.700000762939453</real>
+								<real>25.200000762939453</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>228px</string>
+									<string>161px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -5933,153 +3852,9 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>BE2749CC-F2AA-4762-92A0-915502D0D1FE-9830-00025266F892A6D4</string>
+								<string>7E4E5E42-D9B4-4E14-8BDB-F61DF5A3ADA8-8081-00002FFAF66FECE7</string>
 								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.33333206176757812</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>531px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>112</string>
-								<key>startTime</key>
-								<real>39</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>531px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>0BB44607-018C-4C68-9B8A-21EA8F4DDC7E-9830-00025266F87BD83B</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.33333206176757812</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>438px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>112</string>
-								<key>startTime</key>
-								<real>39</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>438px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>4DF8721E-74B0-46C8-BF93-B9F1BCEE9E4C-9830-00025266F8A0074A</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.6666679382324219</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>275px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>112</string>
-								<key>startTime</key>
-								<real>39.333332061767578</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>531px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E24C640A-ABEC-4E4F-920D-3A1D98129BF9-9830-0002526B9B7D9317</string>
-								<key>zIndex</key>
-								<integer>5</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>1.6666679382324219</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>694px</string>
-								</dict>
-								<key>identifier</key>
-								<string>Width</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>112</string>
-								<key>startTime</key>
-								<real>39.333332061767578</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Width</string>
-									<key>objectValue</key>
-									<string>438px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>0F97A8F9-4445-4E5D-8178-7939BA4F1EBF-9830-0002526B9BA4FB22</string>
-								<key>zIndex</key>
-								<integer>5</integer>
+								<integer>19</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6089,15 +3864,15 @@ var myAudio = document.getElementById("hebRead");
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>41</real>
+								<real>26.466667175292969</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>275px</string>
+									<string>634px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -6106,9 +3881,9 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>5C69A918-908E-441E-9B49-0DD6D557F716-9830-0002526B9B8DAD36</string>
+								<string>5121D869-0BE2-4F83-A684-DE246F3FD571-8081-00002FFAF65D3185</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>20</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -6118,15 +3893,15 @@ var myAudio = document.getElementById("hebRead");
 								<key>isRelative</key>
 								<false/>
 								<key>referenceOid</key>
-								<string>112</string>
+								<string>118</string>
 								<key>startTime</key>
-								<real>41</real>
+								<real>26.466667175292969</real>
 								<key>startValue</key>
 								<dict>
 									<key>identifier</key>
 									<string>Width</string>
 									<key>objectValue</key>
-									<string>694px</string>
+									<string>300px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -6135,9 +3910,9 @@ var myAudio = document.getElementById("hebRead");
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>F604B8B4-80C0-48DB-8193-3F81A572E036-9830-0002526B9BB3424A</string>
+								<string>AA9DA045-940B-4F0D-AD74-ED6695D9AA8C-8081-00002FFAF6789070</string>
 								<key>zIndex</key>
-								<integer>6</integer>
+								<integer>20</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
@@ -7473,6 +5248,8 @@ var myAudio = document.getElementById("hebRead");
 	<integer>0</integer>
 	<key>useTouchEvents</key>
 	<true/>
+	<key>videoExportDuration</key>
+	<real>0.0</real>
 	<key>videoExportLoopPlayback</key>
 	<true/>
 	<key>videoExportScale</key>
@@ -7481,7 +5258,5 @@ var myAudio = document.getElementById("hebRead");
 	<integer>0</integer>
 	<key>webAppCapable</key>
 	<integer>0</integer>
-	<key>zoomFactor</key>
-	<real>0.5</real>
 </dict>
 </plist>
